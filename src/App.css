@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  background-color: azure;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  background-color: azure;
+  border: 2px dotted aquamarine;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-items > ul{
+ list-style: none;
+ display: flex;
+}
+
+.nav-items >ul>li{
+  padding: 10px;
+}
+
+.logo{
+  width: 80px;
+  height: 80px;
+}
+
+.card{
+  width: 200px;
+  border: 2px double burlywood;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 2%;
+  font-size: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: beige;
+}
+.card > img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+.rest-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.shimmer-card{
+  width: 200px;
+  height: 240px;
+  background-color: lightgray;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 2%;
+}
+.menu{
+  display: flex;
+}
